@@ -30,7 +30,8 @@ jobs:
       matrix:
         include:
         - language: csharp
-          build-mode: autobuild
+          # build-mode: autobuild
+          build-mode: none # analyzes code only
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
