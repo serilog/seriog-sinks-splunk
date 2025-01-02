@@ -1,9 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <AssemblyName>Serilog.Sinks.Splunk.Tests</AssemblyName>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
